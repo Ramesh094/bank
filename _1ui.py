@@ -1,7 +1,7 @@
 from _2con import createAccount, getDetails, is_valid, withdraw, deleteAccount
 
 while True:
-    print('Welcome to "Bank of Ramesh"')
+    print('Welcome to "Bank of Durga"')
     print('Select the operation from below options by entering first letter of the option')
     print('Create a bank account\nRetrieve the bank account\nWithdrawal money from bank account\nDeposit money to bank account\nClose the bank account')
     operation = input('Enter Your mode of operation: ').strip()

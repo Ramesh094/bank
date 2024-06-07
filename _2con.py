@@ -4,7 +4,7 @@ from _3service import validateAadhar, findBankAcc
 from _4dao import create_acc, updateAmount, deleteAcc
 from _sms import client
 from random import *
-
+# this is for testing
 otp = randint(100000, 999999)
 def createAccount(name, dob, mobile, aadhar):
     data = validateAadhar(aadhar)
